@@ -6,7 +6,7 @@ app = FastAPI()
  #クラスをインスタンス化してappという変数に代入します。あまり深く考えずに、覚えていいと思います。
 
 origins = [
-    "http://localhost:3005","https://react-first-test.vercel.app/"
+    "http://localhost:3005","https://react-first-test.vercel.app/",
 ]
 
 app.add_middleware(
