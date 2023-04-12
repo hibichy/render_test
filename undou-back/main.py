@@ -28,4 +28,4 @@ app.add_middleware(
 #Getリクエストは、webのリクエストの一つで、主にデータを取得したいときにクライアントから送られます。
 # この場合のクライアントは、フロントエンドのアプリです。
 def Hello():
-    return {"Hello":"Wooorld!"}
+    return {"Hello":"Wooo!"}
